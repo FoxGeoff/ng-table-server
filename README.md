@@ -12,3 +12,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Task: Display a component
 
 ### Task: Import Angular Material modules
+
+### Task: Add Table component
