@@ -1,3 +1,37 @@
-<mat-slider min="1" max="100" step="1" value="1"></mat-slider>
+<mat-sidenav-container fullscreen>
 
-<app-table></app-table>
+  <mat-sidenav #start>
+      <mat-nav-list>
+
+          <a mat-list-item routerLink="/">
+              <mat-icon>library_books</mat-icon>
+              <span>Courses</span>
+          </a>
+
+          <a mat-list-item routerLink="about">
+              <mat-icon>question_answer</mat-icon>
+              <span>About</span>
+          </a>
+          <a mat-list-item>
+              <mat-icon>person_add</mat-icon>
+              <span>Register</span>
+          </a>
+
+          <a mat-list-item>
+              <mat-icon>account_circle</mat-icon>
+              <span>Login</span>
+          </a>
+
+      </mat-nav-list>
+
+  </mat-sidenav>
+
+  <mat-toolbar color="primary">
+      <button mat-icon-button (click)="start.open('mouse')">
+          <mat-icon>menu</mat-icon>
+      </button>
+  </mat-toolbar>
+
+  <app-table></app-table>
+
+</mat-sidenav-container>

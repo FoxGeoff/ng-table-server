@@ -23,13 +23,15 @@ import { CoursesComponent } from './course/courses/courses.component';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MatButtonModule } from '@angular/material/button';
+import { CoursesCardListComponent } from './course/courses-card-list/courses-card-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TableComponent,
     CoursesComponent,
-    HomeComponent
+    HomeComponent,
+    CoursesCardListComponent
   ],
   imports: [
     BrowserModule,
