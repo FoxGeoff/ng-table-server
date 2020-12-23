@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
+## Project online
+
+1. Description: <https://blog.angular-university.io/angular-material-data-table/>
+2. Code: <https://github.com/angular-university/angular-material-course/tree/2-data-table-finished>
+3. Local project code: C:\Users\foxge\Github\angular-material-table-serverside
+4. TSLint error: <https://stackoverflow.com/questions/65228384/tslint-extension-throwing-errors-in-my-angular-application-running-in-visual-stu>
+5. Migrate from TSLint to ESLint <https://code.visualstudio.com/api/advanced-topics/tslint-eslint-migration>
+
 ## Kanban Task: Add Angular Material Components
 
 ### Task: Add Angular Material
@@ -14,3 +22,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Task: Import Angular Material modules
 
 ### Task: Add Table component
+
+### Task: Add courses.service.ts

@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TableComponent implements OnInit {
 
-  displayedColumns = ["seqNo", "description", "duration"];
+  displayedColumns = ['seqNo', 'description', 'duration'];
   dataSource = [];
 
   constructor() { }

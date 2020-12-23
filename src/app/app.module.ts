@@ -11,11 +11,13 @@ import { MatTableModule  } from '@angular/material/table';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TableComponent } from './table/table.component';
+import { CoursesComponent } from './course/courses/courses.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TableComponent
+    TableComponent,
+    CoursesComponent
   ],
   imports: [
     BrowserModule,
