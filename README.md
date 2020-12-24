@@ -24,3 +24,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Task: Add Table component
 
 ### Task: Add courses.service.ts
+
+### Task: Add CourseResolver
+
+1. Ref: <https://codeburst.io/understanding-resolvers-in-angular-736e9db71267>
