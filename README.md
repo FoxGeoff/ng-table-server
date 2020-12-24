@@ -9,6 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 3. Local project code: C:\Users\foxge\Github\angular-material-table-serverside
 4. TSLint error: <https://stackoverflow.com/questions/65228384/tslint-extension-throwing-errors-in-my-angular-application-running-in-visual-stu>
 5. Migrate from TSLint to ESLint <https://code.visualstudio.com/api/advanced-topics/tslint-eslint-migration>
+6. Ref Project <https://github.com/FoxGeoff/angular-material-table-serverside>
 
 ## Kanban Task: Add Angular Material Components
 
@@ -28,3 +29,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Task: Add CourseResolver
 
 1. Ref: <https://codeburst.io/understanding-resolvers-in-angular-736e9db71267>
+2. Ref: <https://blog.chinmoymohanty.com/2020/06/23/do-we-really-need-angular-route-resolvers/>
