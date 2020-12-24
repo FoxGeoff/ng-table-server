@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { MatPaginator } from '@angular/material/paginator';
+import { MatSort } from '@angular/material/sort';
+import { Course } from '../models/interfaces/course';
 
 @Component({
   selector: 'app-table',
@@ -7,8 +10,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TableComponent implements OnInit {
 
+  course: Course;
+
+  dataSource: LessonsDataSource;
+
   displayedColumns = ['seqNo', 'description', 'duration'];
-  dataSource = [];
+
+  @ViewChild(MatPaginator) paginator: MatPaginator;
+
+  @ViewChild(MatSort) sort: MatSort;
+
+  @ViewChild('input') input: ElementRef;
 
   constructor() { }
 
