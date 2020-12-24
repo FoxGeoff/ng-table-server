@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { CoursesComponent } from './course/courses/courses.component';
+import { CourseResolverService } from './course/course.resolver.service';
 
 const routes: Routes = [
   {
@@ -19,7 +20,7 @@ const routes: Routes = [
       path: 'courses/:id',
       component: CoursesComponent,
       resolve: {
-          course: CourseResolver
+          course: CourseResolverService
       }
   },
   {
