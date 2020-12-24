@@ -18,7 +18,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { TableComponent } from './table/table.component';
 import { CoursesComponent } from './course/courses/courses.component';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
@@ -28,10 +27,9 @@ import { CoursesCardListComponent } from './course/courses-card-list/courses-car
 @NgModule({
   declarations: [
     AppComponent,
-    TableComponent,
     CoursesComponent,
     HomeComponent,
-    CoursesCardListComponent
+    CoursesCardListComponent,
   ],
   imports: [
     BrowserModule,
