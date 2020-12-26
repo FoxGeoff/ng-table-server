@@ -16,7 +16,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Task: Add Angular Material
 
 1. Ref: <https://material.angular.io/>
-2. run ```ng add @angular/material```
+2. run ```ng add @angular/material```.
 
 ### Task: Display a component
 
