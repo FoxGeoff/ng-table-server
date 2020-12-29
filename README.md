@@ -19,6 +19,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 2. run ```ng add @angular/material```.
 
 NOTE: Stop work on project and build Angular Material Table form Angular page (12-27-2020)
+
 ### Task: Display a component
 
 ### Task: Import Angular Material modules
